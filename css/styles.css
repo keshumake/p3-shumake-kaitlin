@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&family=Noto+Sans+JP&display=swap');
+
+
+/* home header */
+header {
+    height: 250px;
+    background-color: bisque;
+    padding: 20px;
+    width: 100%;
+}
+
+nav ul, nav li, title {
+  text-decoration: none;
+  display: inline;
+  text-align: right;
+}
+
+/* main content */
+main {
+    padding: 25px 150px 25px 150px;
+}
+
+h1, h2 {
+  font-family: 'Homemade Apple', cursive;
+}
+
+p {
+  font-family: 'Noto Sans JP', sans-serif;
+  line-height: 16pt;
+  font-size: 12pt;
+}
+
+/* footer */
+
+footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: bisque;
+  text-align: center;
+}
