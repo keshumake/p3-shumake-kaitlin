@@ -2,17 +2,45 @@
 
 
 /* home header */
-header {
+header{
     height: 250px;
-    background-color: bisque;
-    padding: 20px;
+    background-image:url("../image/billfamily.jpeg");
     width: 100%;
+    border: 0;
 }
 
-nav ul, nav li, title {
-  text-decoration: none;
+.top-header {
+  padding:25px;
+  width:100%;
+}
+
+.top-header h1 {
+  float:left;
+  padding-left: 25px;
+  border: 0;
+}
+
+header ul {
+  vertical-align: center;
+  float: right;
+  margin: 0;
+  padding: 0;
+}
+
+header nav li {
+  font-family: 'Noto Sans JP', sans-serif;
   display: inline;
-  text-align: right;
+  list-style: none;
+}
+
+header nav li a {
+  display: inline;
+  padding: 10px;
+  text-decoration: none;
+}
+
+header nav li a:hover {
+  background-color: black;
 }
 
 /* main content */
@@ -30,9 +58,23 @@ p {
   font-size: 12pt;
 }
 
+/* main content */
+
+.maincontent {
+  max-width: 850px;
+  text-align: center;
+}
+
+.maincontent img {
+    height: 600px;
+    float: left;
+    padding-right: 15px;
+}
+
 /* footer */
 
 footer {
+  border: 0;
   left: 0;
   bottom: 0;
   width: 100%;
