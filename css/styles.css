@@ -171,3 +171,13 @@ footer a {
   width: 25px;
   padding: 10px;
 }
+
+/* portfolio */
+section.gallery {
+  margin: 0 auto;
+  text-align: center;
+  width: 1200px;
+}
+section.gallery img {
+  width: 300px;
+}

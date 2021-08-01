@@ -4,10 +4,17 @@
   <meta charset="utf-8">
   <title>AdrianaMay Photography</title>
 
+<!-- CSS -->
   <link rel="stylesheet" href="css/styles.css">
+
+<!-- lightbox -->
+  <link href="lightbox/src/lightbox.css" rel="stylesheet" />
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
 </head>
 <body>
-  <header>
+  <header class="main-header">
     <h1>AdrianaMay Photography</h1>
 
     <nav>
@@ -20,11 +27,24 @@
     </nav>
   </header>
 
+<main>
   <section class="gallery">
-    <img src="image/lucy.jpeg" alt="Lucy">
-    <img src="image/lucy2.jpeg" alt="Lucy 2">
-    <img src="image/sunflower.jpeg" alt="sunflower">
+    <h1>gallery / portfolio</h1>
+    <br>
+    <a href="image/lucy.jpeg" data-lightbox="image-1" data-title="My caption"><img src="image/lucy.jpeg" alt="Lucy" title="Lucy" /></a>
+
+    <a href="image/lucy2.jpeg" data-lightbox="image-1" data-title="My caption"><img src="image/lucy2.jpeg" alt="Lucy 2" title="Lucy 2" /></a>
+
+    <a href="image/sunflower.jpeg" data-lightbox="image-1" data-title="My caption"><img src="image/sunflower.jpeg" alt="sunflower" title="Sunflower" /></a>
+
+    <a href="image/sunflower.jpeg" data-lightbox="image-1" data-title="My caption"><img src="image/jr.jpeg" alt="JR Senior Shoot" title="JR Senior Shoot" /></a>
+
+    <a href="image/jr 2.jpeg" data-lightbox="image-1" data-title="My caption"><img src="image/jr 2.jpeg" alt=" JR 2" title="JR 2" /></a>
+
+    <a href="image/jr 3.jpeg" data-lightbox="image-1" data-title="My caption"><img src="image/jr 3.jpeg" alt="JR 3"></a>
   </section>
+</main>
+
 
 
   <!--footer -->
@@ -41,6 +61,8 @@
       <a href="https://facebook.com"><img src="image/facebook.png" alt="Twitter"></a>
     </div>
   </footer>
+
+  <script src="lightbox/src/js/lightbox.js"></script>
 
 </body>
 </html>
