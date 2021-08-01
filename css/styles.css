@@ -1,9 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&family=Noto+Sans+JP&display=swap');
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  min-height: 100vh;
+}
 
 /* home header */
-header{
-    /* height: 250px; */
+.home-header {
+    height: 700px;
     background-image:url("../image/billfamily.jpeg");
     width: 100%;
     border: 0;
@@ -14,29 +22,22 @@ header{
   width:100%;
 }
 
-/* .top-header h1 {
-  float:left;
-  padding-left: 25px;
-  border: 0;
-} */
-
-.top-header h1 {
+.top-header h1, .main-header h1 {
     padding-left: 25px;
     border: 0;
     width: 30%;
     display: inline-block;
 }
 
-header nav {
+header nav, .main-header nav {
     display: inline-block;
     width: 60%;
 }
 
-header ul {
-  vertical-align: center;
-  /* float: right; */
+header ul, .main-header ul {
   margin: 0;
   padding: 0;
+  text-align: right;
 }
 
 header nav li {
@@ -49,18 +50,35 @@ header nav li a {
   display: inline;
   padding: 10px;
   text-decoration: none;
+  color: black;
+  letter-spacing: 2px;
 }
 
 header nav li a:hover {
   background-color: black;
+  color: white;
 }
+
+header nav li a:visited {
+  color: black;
+}
+
+
+/* main header */
+.main-header {
+  height: 100px;
+  width: 100%;
+  background-color: #e0d9cd;
+  display: inline-block;
+}
+
 
 /* main content */
 main {
-    padding: 25px 150px 25px 150px;
+  padding: 50px 0px;
 }
 
-h1, h2 {
+h1, h2, h3 {
   font-family: 'Homemade Apple', cursive;
 }
 
@@ -70,18 +88,20 @@ p {
   font-size: 12pt;
 }
 
-/* main content */
-
-.maincontent {
+.maincontent, .about {
   max-width: 850px;
   text-align: center;
   margin: 0 auto;
 }
 
-.maincontent img {
-    height: 600px;
+.maincontent img, .about img {
+    height: 500px;
     float: left;
     padding-right: 15px;
+}
+
+.about img {
+  border-radius: 50px;
 }
 
 .left-column,
@@ -90,13 +110,64 @@ p {
     width: 49%;
     vertical-align: top;
 }
+
+.maincontent button {
+  background-color: black;
+  padding: 10px;
+  border: 0;
+  color: white;
+  font-size: 14px;
+}
+
+.right-column h2 {
+    font-size: 30px;
+}
+
+.right-column a {
+  color: white;
+  text-decoration: none;
+}
+
 /* footer */
 
 footer {
-  border: 0;
-  left: 0;
-  bottom: 0;
+  margin: 0 auto;
   width: 100%;
-  background-color: bisque;
-  text-align: center;
+  background-color: #e0d9cd;
+  padding: 10px;
+}
+
+.footer-right {
+  display: block;
+  padding-right: 10px;
+  width: 20%;
+  display: inline-block;
+  text-align: right;
+}
+
+ footer h3, footer p {
+   padding-bottom: 5px;
+}
+
+footer p {
+  font-size: 12px;
+}
+
+footer a {
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: small;
+}
+
+.socialmedia {
+  text-align: left;
+  vertical-align: center;
+  display: inline-block;
+  width: 69%;
+  border-left: 2px solid black;
+  padding-left: 10px;
+}
+
+.socialmedia img {
+  width: 25px;
+  padding: 10px;
 }
