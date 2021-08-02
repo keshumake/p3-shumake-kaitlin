@@ -176,8 +176,9 @@ footer a {
 section.gallery {
   margin: 0 auto;
   text-align: center;
-  width: 1200px;
+  width: 90%;
 }
 section.gallery img {
   width: 300px;
+  vertical-align: center;
 }
