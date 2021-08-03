@@ -7,6 +7,7 @@
 
 main {
   min-height: 100vh;
+  padding: 50px 0px;
 }
 
 /* home header */
@@ -55,7 +56,7 @@ header nav li a {
 }
 
 header nav li a:hover {
-  background-color: black;
+  background-color: #aac991;
   color: white;
 }
 
@@ -74,9 +75,6 @@ header nav li a:visited {
 
 
 /* main content */
-main {
-  padding: 50px 0px;
-}
 
 h1, h2, h3 {
   font-family: 'Homemade Apple', cursive;
@@ -112,7 +110,7 @@ p {
 }
 
 .maincontent button {
-  background-color: black;
+  background-color: #aac991;
   padding: 10px;
   border: 0;
   color: white;
@@ -172,7 +170,7 @@ footer a {
   padding: 10px;
 }
 
-/* portfolio */
+/* Portfolio page */
 section.gallery {
   margin: 0 auto;
   text-align: center;
@@ -181,4 +179,80 @@ section.gallery {
 section.gallery img {
   width: 300px;
   vertical-align: center;
+}
+
+/* Contact Page */
+
+section.headerphotos {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.headerphotos img {
+  height: 300px;
+  padding: 10px;
+}
+
+.contact-text {
+  text-align: center;
+}
+
+.contact-text h2 {
+  padding: 10px;
+  letter-spacing: 2px;
+}
+
+.contact-text p:last-child {
+  padding-bottom: 30px;
+}
+
+.contactform {
+  margin: 0 auto;
+  border: 2px solid black;
+  border-radius: 25px;
+  width: 600px;
+}
+
+.contactform {
+  border: 2pt solid black;
+  padding: 20px;
+  max-width: 500px;
+  border-radius: 5px;
+  margin: 0 auto;
+  background-color: #aac991;
+  text-align: center;
+}
+
+.label_input_wrap {
+  display: block;
+}
+
+label {
+  display: block;
+  font-family: 'Noto Sans JP', sans-serif;
+  padding: 5px;
+}
+
+input, textarea {
+  width: 60%;
+}
+
+.submit input {
+  background-color: #5b5a5a;
+  color: white;
+  padding: 5px 20px;
+  font-size: 16px;
+}
+
+.input-section {
+  margin-bottom: 10px;
+}
+
+input {
+  padding: 5px 10px;
+  border-radius: 2px;
+}
+
+.submit input:hover {
+  background-color: black;
 }

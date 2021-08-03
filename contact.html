@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-  <header>
+  <header class="main-header">
     <h1>AdrianaMay Photography</h1>
 
     <nav>
@@ -20,69 +20,73 @@
     </nav>
   </header>
 
-  <section class="headerphotos">
+  <main>
+    <section class="headerphotos">
+      <img src="image/baby.jpg" alt="Baby Photo" />
+      <img src="image/couple.jpg" alt="Couple Photo" />
+      <img src="image/parentssun.jpg" alt="Parents Photo" />
+    </section>
 
-  </section>
+    <section>
+      <div class="contact-text">
+        <h2>every moment is a photo moment</h2>
+        <p>I am super excited that you are interested in AdrianaMay Photography!</p>
 
-  <section>
-    <div class="contact-text">
-      <h2>every moment is a photo moment</h2>
-      <p>I am super excited that you are interested in AdrianaMay Photography!</p>
-
-      <p>Please provide me with some details about your photo session vision & I will reach out to you shortly to schedule a consultation.</p>
-    </div>
-
-    <div class="contactform">
-      <form name="contact" method="post" action="">
-        <div class="name">
-          <label for="fullname" class="label-input-wrap">Full Name:</label>
-          <input type="text" name="fullname" id="fullname" />
-        </div>
-
-        <div class="email">
-          <label for="email" class="label_input_wrap">Email Address:</label>
-          <input type="email" name="email" id="email" />
-        </div>
-
-        <div class="telephone">
-          <label for="telephone" class="label_input_wrap">Telephone:</label>
-          <input type="tel" name="telephone" id="telephone" />
-        </div>
-
-        <div class="pronouns">
-          <label for="pronouns" class="label_input_wrap">Your Preferred Pronouns:</label>
-          <input type="text" name="pronouns" id="pronouns" />
-        </div>
-      </form>
-
-      <div class="comments">
-        <label for="comments" class="label_input_wrap">Comments:</label>
-        <textarea name="comments" id="comments" cols="20" rows="15" placeholder="Please enter your comments here."></textarea>
+        <p>Please provide me with some details about your photo session vision & I will reach out to you shortly to schedule a consultation.</p>
       </div>
 
-      <div class="submit">
-        <input type="submit" name="submit" value="Send Message" />
+      <div class="contactform">
+        <form class="contact" id="test_form" name="test_form" method="post" action="form.php" onsubmit="return validateForm(this)">
+          <div class="name">
+            <label for="fullname" class="label-input-wrap">Full Name:</label>
+            <input type="text" name="fullname" id="fullname" />
+          </div>
+
+          <div class="email">
+            <label for="email" class="label_input_wrap">Email Address:</label>
+            <input type="email" name="email" id="email" />
+          </div>
+
+          <div class="telephone">
+            <label for="telephone" class="label_input_wrap">Telephone:</label>
+            <input type="tel" name="telephone" id="telephone" />
+          </div>
+
+          <div class="pronouns">
+            <label for="pronouns" class="label_input_wrap">Your Preferred Pronouns:</label>
+            <input type="text" name="pronouns" id="pronouns" />
+          </div>
+        </form>
+
+        <div class="comments">
+          <label for="comments" class="label_input_wrap">Comments:</label>
+          <textarea name="comments" id="comments" cols="20" rows="15" placeholder="Please enter your comments here."></textarea>
+        </div>
+
+        <div class="submit">
+          <input type="submit" name="submit" value="Send Message" />
+        </div>
       </div>
-    </div>
 
 
 
-  </section>
+    </section>
 
 
-  <!--footer -->
-  <footer>
-    <div class="footer-right">
-      <h3>AdrianaMay Photography</h3>
-      <p>Every Moment is a Photo Moment</p>
-      <p>Jacksonville, Florida Photography</p>
-    </div>
-    <div class="socialmedia">
-      <a href="mailto:contacti@adrianamayphoto.com">Send a Message</a><br>
-      <a href="https://twitter.com"><img src="image/twitter.png" alt="Twitter"></a>
-      <a href="https://instagram.com"><img src="image/instagram.png" alt="Instagram"></a>
-      <a href="https://facebook.com"><img src="image/facebook.png" alt="Twitter"></a>
-    </div>
-  </footer>
+    <!--footer -->
+    <footer>
+      <div class="footer-right">
+        <h3>AdrianaMay Photography</h3>
+        <p>Every Moment is a Photo Moment</p>
+        <p>Jacksonville, Florida Photography</p>
+      </div>
+      <div class="socialmedia">
+        <a href="mailto:contacti@adrianamayphoto.com">Send a Message</a><br>
+        <a href="https://twitter.com"><img src="image/twitter.png" alt="Twitter"></a>
+        <a href="https://instagram.com"><img src="image/instagram.png" alt="Instagram"></a>
+        <a href="https://facebook.com"><img src="image/facebook.png" alt="Twitter"></a>
+      </div>
+    </footer>
+  </main>
 </body>
 </html>
