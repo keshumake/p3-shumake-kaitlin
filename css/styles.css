@@ -133,6 +133,7 @@ footer {
   width: 100%;
   background-color: #e0d9cd;
   padding: 10px;
+  position: absolute;
 }
 
 .footer-right {
@@ -214,13 +215,13 @@ section.headerphotos {
 }
 
 .contactform {
-  border: 2pt solid black;
   padding: 20px;
   max-width: 500px;
   border-radius: 5px;
   margin: 0 auto;
   background-color: #aac991;
   text-align: center;
+  padding-bottom: 30px;
 }
 
 .label_input_wrap {
@@ -231,10 +232,12 @@ label {
   display: block;
   font-family: 'Noto Sans JP', sans-serif;
   padding: 5px;
+  letter-spacing: 1px;
 }
 
 input, textarea {
   width: 60%;
+  border: none;
 }
 
 .submit input {
