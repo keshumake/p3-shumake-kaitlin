@@ -119,6 +119,11 @@ footer a {
   width: 25px;
   padding: 10px;
 }
+
+.container {
+  margin: 0 auto;
+  text-align: center;
+}
 </style>
 
 <header class="main-header">
@@ -135,7 +140,7 @@ footer a {
 </header>
 
 <div class="container">
-  <h1>Thank you for your enquiry</h1>
+  <h2>thank you for your enquiry</h2>
   <p>Thanks for your interest. We have received your message, and we will be in touch shortly.</p>
 </div>
 

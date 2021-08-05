@@ -119,6 +119,11 @@ footer a {
   width: 25px;
   padding: 10px;
 }
+
+.container {
+  margin: 0 auto;
+  text-align: center;
+}
 </style>
 
 <header class="main-header">
