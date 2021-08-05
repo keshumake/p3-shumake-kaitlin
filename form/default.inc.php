@@ -123,6 +123,7 @@ footer a {
 .container {
   margin: 0 auto;
   text-align: center;
+  min-height: 100vh;
 }
 </style>
 
