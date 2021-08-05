@@ -168,6 +168,10 @@ footer a {
   padding-left: 10px;
 }
 
+.socialmedia a {
+  padding-bottom: 25px;
+}
+
 .socialmedia img {
   width: 25px;
   padding: 10px;
@@ -187,7 +191,7 @@ section.gallery img {
 
 /* Contact Page */
 
-section.headerphotos {
+.headerphotos {
   margin: 0 auto;
   text-align: center;
 }
