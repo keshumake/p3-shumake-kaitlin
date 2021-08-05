@@ -1,4 +1,6 @@
 <style type="text/css">
+@import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&family=Noto+Sans+JP&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -68,16 +70,68 @@ p {
   line-height: 16pt;
   font-size: 12pt;
 }
+
+footer {
+  margin: 70px 0 auto;
+  width: 100%;
+  background-color: #e0d9cd;
+  padding: 10px;
+  position: absolute;
+}
+
+.footer-right {
+  display: block;
+  padding-right: 10px;
+  width: 20%;
+  display: inline-block;
+  text-align: right;
+}
+
+ footer h3, footer p {
+   padding-bottom: 5px;
+}
+
+footer p {
+  font-size: 12px;
+}
+
+footer a {
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: small;
+  text-decoration: none;
+  color: black;
+}
+
+.socialmedia {
+  text-align: left;
+  vertical-align: center;
+  display: inline-block;
+  width: 69%;
+  border-left: 2px solid black;
+  padding-left: 10px;
+}
+
+.socialmedia a {
+  padding-bottom: 25px;
+}
+
+.socialmedia img {
+  width: 25px;
+  padding: 10px;
+}
 </style>
 
-<header>
-    <nav>
-      <ul>
-        <li><a href="index.html">home</a></li>
-        <li><a href="contact.html">contact</a></li>
-        <li><a href="about.html">about me</a></li>
-      </ul>
-    </nav>
+<header class="main-header">
+  <h1>AdrianaMay Photography</h1>
+
+  <nav>
+    <ul>
+      <li><a href="index.html" target="_blank">home</a></li>
+      <li><a href="about.html" target="_blank">about</a></li>
+      <li><a href="portfolio.html" target="_blank">portfolio</a></li>
+      <li><a href="contact.html" target="_blank">contact</a></li>
+    </ul>
+  </nav>
 </header>
 
 <div class="container">
@@ -97,7 +151,16 @@ p {
 </div>
 </div>
 
-
 <footer>
-  <p>This page was designed by Kaitlin Shumake, 2021.</p>
+  <div class="footer-right">
+    <h3>AdrianaMay Photography</h3>
+    <p>Every Moment is a Photo Moment</p>
+    <p>Jacksonville, Florida Photography</p>
+  </div>
+  <div class="socialmedia">
+    <a href="mailto:contacti@adrianamayphoto.com">Send a Message</a><br>
+    <a href="https://twitter.com"><img src="image/twitter.png" alt="Twitter"></a>
+    <a href="https://instagram.com"><img src="image/instagram.png" alt="Instagram"></a>
+    <a href="https://facebook.com"><img src="image/facebook.png" alt="Twitter"></a>
+  </div>
 </footer>
